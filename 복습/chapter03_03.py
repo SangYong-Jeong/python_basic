@@ -67,7 +67,7 @@ print('a - ', a)
 a.reverse()
 print('a - ', a)
 print('a - ', a.index(5))
-a.insert(2, 7)
+a.insert(2, 7) # a.insert(집어넣은 index, 집어넣을 요소)
 print('a - ', a)
 a.reverse()
 print('a - ', a)
@@ -87,3 +87,10 @@ while a:
   l = a.pop()
   print(l)
   print(2 is l)
+
+a.append(1)
+print('a - ', a)
+
+# 모두 제거
+a.clear()
+print('a - ', a)
