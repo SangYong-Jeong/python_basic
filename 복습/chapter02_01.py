@@ -2,11 +2,25 @@
 # 파이썬 완전 기초
 # Print 사용법
 
+"""
+참고 : Escape 코드
+
+\n : 개행
+\t : 탭
+\\ : 문자
+\' : 문자
+\" : 문자
+\000 : 널 문자
+...
+
+"""
+
 # 기본 출력
 print('Pythond Start!')
 print("Python Start!")
 print('''Python Start!''')
 print("""Python Start!""")
+
 print()
 
 # separator 옵션
@@ -41,12 +55,12 @@ print('{:10}'.format('nice'))
 print('{:<10}'.format('nice'))
 
 print('{:_>10}'.format('nice'))
-print('{:^10}'.format('nice'))
+print('{:^10}'.format('nice')) # 자릿수의 중앙에 문자열 맞춰서 출력
 
-print('%.5s' % ('nice'))
-print('%.5s' % ('pythonstudy'))
-print('{:10.5}'.format('pythonstudy'))
-print('{:>10.5}'.format('pythonstudy'))
+print('%.5s' % ('nice')) 
+print('%.5s' % ('pythonstudy')) # 5자리까지만 끊어서 출력
+print('{:10.5}'.format('pythonstudy')) # 10자리의 빈공간 안에서 문자는 5자까지 끊어서 출력
+print('{:>10.5}'.format('pythonstudy')) #10 자리의 빈공간 안에서 문자는 5자 까지 끊어서 출력 남은 공간 5칸은 빈칸(:> -> 왼쪽부터 빈칸처리)
 
 print()
 
