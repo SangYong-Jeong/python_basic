@@ -44,7 +44,7 @@ print()
 # format 사용(d : 3, s : 'python', f : 3.1445454)
 print('%s %s' % ('one', 'two'))
 print('{} {}'.format('one', 'two'))
-print('{1} {0}'.format('one', 'two'))
+print('{1} {0} {2}'.format('one', 'two', 1))
 
 # %s
 print('%10s' % ('nice'))
